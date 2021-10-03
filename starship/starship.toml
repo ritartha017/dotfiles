@@ -1,0 +1,38 @@
+# Inserts a blank line between shell prompts
+add_newline = false
+
+# Move the directory to the second line
+format="""
+$username\
+$directory\
+$status\
+$ruby\
+$golang\
+$character"""
+
+[character]
+success_symbol = "[❯](bold #076678)"
+error_symbol = "[✗](bold #cc241d) "
+vicmd_symbol="[❮](bold yellow)"
+
+[ruby]
+symbol = "🔺Ruby(#cc241d) "
+detect_extensions = ["rb"]
+
+[golang]
+format = "via [$version](bold cyan) "
+
+[directory]
+truncation_symbol = "/"
+truncation_length = 2
+truncate_to_repo = false
+home_symbol = "~"
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bold #8f3f71"
+read_only = "[read-only]"
+
+[username]
+style_user = "green bold"
+style_root = "black bold"
+format = "[$user]($style #076678) "
+show_always = true
