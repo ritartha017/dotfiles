@@ -15,8 +15,9 @@ alias m2o='xrandr --output eDP-1 --auto'
 alias conv='echo convert -resize 1024X768  source.png dest.jpg'
 
 # UTM
-alias asdn='cd /home/mira/Desktop/UTM/ASDN'
 alias log='wine /home/mira/Desktop/UTM/ASDN/LogicWorks/Program/LogicWorks.exe &'
+alias asdn='cd /home/mira/Desktop/UTM/ASDN'
+alias asdnl='cd /home/mira/Desktop/UTM/ASDN/labs'
 alias lfa='cd /home/mira/Desktop/UTM/LFA'
 alias lfal='cd /home/mira/Desktop/UTM/LFA/labs'
 alias ap='cd /home/mira/Desktop/UTM/APA'
