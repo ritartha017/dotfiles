@@ -189,25 +189,27 @@ bindsym $mod+r mode "resize"
 #}
 # wallpaper
 # exec_always feh -bg-fill /home/mira/Downloads/oet48qxt3k831.jpg
- exec_always feh --bg-scale --zoom fill /home/mira/Desktop/3320.png
+ exec_always feh --bg-scale --zoom fill /home/mira/Pictures/pic2.jpg
 # terminal transparency
  exec_always --no-startup-id compton
 # exec_always --no-startup-id ~/.config/polybar/launch.sh
 # bubmble bar
 bar {
+	i3bar_command i3bar -t
 	position top
-	font pango:JetBrains Mono 13
+	font pango:JetBrains Mono 15
 	tray_output none
 	status_command ~/.config/bumblebee-status/bumblebee-status \
 		-t gruvbox-powerline-light \
 		-m brightness time date battery amixer indicator layout-xkbswitch
 colors {
-	background #ebdbb2
+	#background #20242c
+	background #00000000
 	separator #ffffff
 			  #border #bg     #text
-	focused_workspace #ebdbb2 #ebdbb2 #ffffff
+	focused_workspace #282828 #b16286 #ffffff
 	urgent_workspace   #ebdbb2 #fb4934 #ffffff	
-	inactive_workspace   #ebdbb2 #8ec07c #ffffff	
+	inactive_workspace   #282828 #282828 #ffffff	
 }
 }
 
