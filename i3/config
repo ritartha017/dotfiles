@@ -5,6 +5,8 @@ floating_modifier $mod
 for_window [class="Firefox"] floating disable
 for_window [class="Teams"] floating disable
 for_window [class="JFLAP"] floating enable
+for_window [class="kolourpaint"] floating enable
+
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
