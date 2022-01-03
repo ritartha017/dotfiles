@@ -1,5 +1,5 @@
 {
-	"icons": [ "paxy97", "awesome-fonts" ],
+	"icons": [ "ascii" ],
 	"defaults": {
 		"warning": {
 			"fg": "#1d2021",
@@ -10,7 +10,7 @@
 			"bg": "#cc241d"
 		},
 		"default-separators": false,
-		"separator-block-width": 0
+		"separator-block-width": 2
 	},
 	"cycle": [
 		{
